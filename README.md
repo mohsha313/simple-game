@@ -61,10 +61,22 @@ Follow these steps to set up the ULTIMATE Rock Paper Scissors game on your local
 5. **Customize and Contribute**:
     - Feel free to explore the code and customize the game as you like.
   
+ ## Lighthouse Report
+
+Here is the Lighthouse report for the ULTIMATE Rock Paper Scissors website:
+
+![Lighthouse Report](https://github.com/mohsha313/simple-game/blob/main/performance.PNG)
+
+  
  ## Website Preview
 
 ![Website Preview](https://github.com/mohsha313/simple-game/blob/main/preview-img.png)
     - If you find any issues or have suggestions for improvements, you can contribute by submitting a pull request or opening an issue on GitHub.
 
 
+## Website Responsive Design
+
+Here is an illustration of the responsive design of the ULTIMATE Rock Paper Scissors website:
+
+![Responsive Design](https://github.com/mohsha313/simple-game/blob/main/responsive.png)
 
