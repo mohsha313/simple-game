@@ -34,7 +34,7 @@ The game is deployed and can be played [here](https://mohsha313.github.io/simple
 
 ## Website Preview
 
-![Website Preview](preview/website_preview.png)
+![Website Preview]([preview/website_preview.png](https://github.com/mohsha313/simple-game/blob/main/preview-img.png))
 
 ## Setup
 
