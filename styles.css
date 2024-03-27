@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.game-options, .game-results {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#result-message {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100px;
+}
+
+#reset {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: #555;
+}
+.choice-img {
+    position: relative;
+    
+}
+
+.game-results {
+    position: relative; /* Add this line */
+    background-color: rgb(118, 201, 219);
+    padding: 8%;
+    width: 15%;
+}
+
+.user-score {
+    position: absolute;
+    top: 40px;
+    left: 43%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.container-result{
+    display: flex;
+    justify-content: space-around;
+}
+.computer-result{
+    position: relative; /* Add this line */
+    background-color: rgb(223, 134, 145);
+    padding: 8%;
+    width: 15%;
+}
+.computer-img{
+    position: relative;
+    left: 26%;
+    
+}
+.computer-score{
+position: absolute;
+    top: 40px;
+    left: 38%;
+    font-size: 20px;
+    font-weight: 600;
+}
+@media screen and (max-width: 1050px) {
+    .game-results,
+    .computer-result {
+        width: 100%; /* Set width to 100% for mobile layout */
+    }
+.user-score{
+    position: absolute;
+    top: 12px;
+    left: 45%;
+}
+.computer-img {
+    position: relative;
+    left: 43%;
+}
+.computer-score{
+    position: absolute;
+    top: 11px;
+    left: 43%;
+}
+    .container-result {
+        flex-direction: column; /* Stack elements vertically */
+    }
+}
+
+@media screen and (max-width:425px) {
+    .game-results,
+    .computer-result {
+        width: 100%; /* Set width to 100% for mobile layout */
+    }
+    .user-score {
+        position: absolute;
+        top: -7px;
+        left: 41%;
+    }
+    .computer-img {
+        position: relative;
+        left: 40%;
+    }
+    
+    
+    .computer-score {
+        position: absolute;
+        top: -6px;
+        left: 41%;
+    }
+    .container-result {
+        flex-direction: column; /* Stack elements vertically */
+    }
+}
