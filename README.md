@@ -32,6 +32,10 @@ To play the game:
 
 The game is deployed and can be played [here](https://mohsha313.github.io/simple-game/).
 
+## Website Preview
+
+![Website Preview](preview/website_preview.png)
+
 ## Setup
 
 1. Clone the repository to your local machine:
