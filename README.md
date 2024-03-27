@@ -8,7 +8,9 @@ This is a simple Rock Paper Scissors game implemented using HTML, CSS, and JavaS
 - [Features](#features)
 - [Deployment](#deployment)
 - [Setup](#setup)
+-  [Lighthouse Report](#lighthouse-report)
 - [Website Preview](#website-preview)
+- [Website Responsive Design](#website-responsive-design)
 
 ## Introduction
 
